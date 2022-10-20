@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="Author" content="Cezary Grzęda"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <form id="form" class="search">
+                <input type="text" id="search" placeholder="Search" class="search" />
+                <button type="submit" id="submit"><img class="search__button"src="https://cdn.iconscout.com/icon/free/png-256/search-2311754-1918275.png"/></button> 
+            </form>
+
+            <div class="menu__option">
+                <span>Prices</span>
+            </div>
+            <div class="menu__option">
+                <span>Locations</span>
+            </div>
+            <div class="menu__option">
+                <span>Movies</span>
+            </div>
+            
+        </div>
+    </header>
+    <section aria-label="Media Slidder, Carosuel">
+        <div class="carousel" id="carousel" data-carousel>
+            <div class="carousel__button__container">
+            <button class="carousel__button prev" data-carousel-button="prev"> <img class="carousel__button"
+                    src="https://cdn-icons-png.flaticon.com/512/130/130882.png"></button>
+            <button class="carousel__button next" data-carousel-button="next"> <img class="carousel__button"
+                    src="https://img.icons8.com/ios-filled/344/forward--v1.png "> </button>
+            </div>
+                    <ul id="media__list" data-slides>
+            </ul>
+        </div>
+    </section>
+    <main id="main">
+    </main>
+</body>
+
+</html>
